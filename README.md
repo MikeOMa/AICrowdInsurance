@@ -1,6 +1,6 @@
 # AiCrowd-InsuranceGame
 
-Tamas Papp's, My attempt at the AiCrowd Insurance market simulation competition.
+Tamas Papp's and My attempt at the AiCrowd Insurance market simulation competition.
 
 We no longer have access to the data so this is just left here for legacy.
 
