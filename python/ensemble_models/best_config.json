@@ -1,0 +1,23 @@
+{
+	"model_type": "lightgbm",
+	"params": {
+		"objective": "regression_l2",
+		"min_data_in_leaf": 62,
+		"metric": "rmse",
+		"bagging_freq": 20,
+		"bagging_fraction": 0.9359,
+		"feature_fraction": 0.9359,
+		"max_bin": 256,
+		"cat_smooth": 3.8492,
+		"cat_l2": 10,
+		"max_depth": 44,
+		"lambda_l1": 3,
+		"max_cat_to_onehot": 10,
+		"seed": 10,
+		"num_leaves": 4,
+		"learning_rate": 0.01,
+		"num_threads": 4
+	},
+	"pricing_mult": [0, 1.4],
+	"fname": "lightgbm_original_reg"
+}

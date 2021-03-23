@@ -1,0 +1,45 @@
+{
+	"model_type": "lightgbm_freq_sev",
+	"params_freq":{
+		"model_type": "lightgbm",
+		"params": {
+			"objective": "binary",
+			"metric": "binary_logloss",
+			"min_data_in_leaf": 62,
+			"bagging_freq": 20,
+			"bagging_fraction": 0.9359,
+			"feature_fraction": 0.5,
+			"max_bin": 256,
+			"cat_smooth": 9.8492,
+			"cat_l2": 10,
+			"max_depth": 44,
+			"reg_lambda": 3,
+			"seed": 10,
+			"num_leaves": 10,
+			"learning_rate": 0.01,
+			"num_threads": 4
+		}
+	},
+	"params_sev": {
+		"model_type": "ngboost",
+		"dist": "normal",
+		"params_lightgbm": {
+			"objective": "regression",
+			"metric": "rmse",
+			"learning_rate": 0.9,
+			"n_estimators": 1,
+			"num_threads": 4,
+			"reg_lambda": 0.01,
+			"verbosity": 1,
+			"silent": "True",
+			"num_leaves": 14
+		},
+		"params_ngb": {
+			"n_estimators": 1000
+		},
+		"cv_type": "normal"
+	},
+	"vh_make_model": 0,
+	"pricing_mult": [0, 1.5],
+	"fname": "freq_sev_gamma"
+}

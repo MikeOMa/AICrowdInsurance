@@ -1,0 +1,23 @@
+{
+	"model_type": "lightgbm",
+	"params": {
+		"objective": "tweedie",
+		"min_data_in_leaf": 62,
+		"metric": "tweedie",
+		"tweedie_variance_power": 1.724,
+		"bagging_freq": 20,
+		"bagging_fraction": 0.85,
+		"feature_fraction": 0.79453,
+		"max_bin": 256,
+		"cat_smooth": 23.324,
+		"cat_l2": 10,
+		"max_depth": 70,
+		"lambda_l1": 22.5388,
+		"seed": 10,
+		"num_leaves": 2,
+		"learning_rate": 0.01,
+		"num_threads": 4
+	},
+	"pricing_mult": [5.54762, 1.0667, 0.000232225128793],
+	"fname": "lightgbm_tweedie_reg"
+}

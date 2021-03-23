@@ -1,0 +1,8 @@
+{
+	"model_type": "ensemble",
+	"ens_method": "mean",
+	"files": [
+		"ensemble_models/tweedie_lgbm2.json"
+	],
+	"fname": "heavy_loading"
+}
